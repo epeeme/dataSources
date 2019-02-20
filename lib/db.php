@@ -24,7 +24,7 @@ class DbBF
     public function __construct()
     {
         try {
-            $this->PDO = new PDO('mysql:host=mysql.hostinger.co.uk;dbname=u534143343_epee;charset=utf8mb4', 'u534143343_epee', '%grd5wms');
+            $this->PDO = new PDO( SQL CONNECTTION INFO);
         } catch (PDOException $exception) {
             printf("Failed to connect to the  database. Error: %s",  $exception->getMessage());
         }
