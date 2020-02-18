@@ -14,10 +14,10 @@ namespace fie;
 
 class FIEParser
 {
-    // The URL of the LPJS results page
+    // The URL of the FIE results page
     protected $_urlInFull;
 
-    // The raw HTML of the LPJS results page
+    // The raw HTML of the FIE results page
     protected $_dataBody;
 
     // The header info for the results table
@@ -29,7 +29,7 @@ class FIEParser
     /**
      * Initialize the class and set its properties.
      * 
-     * @param string $inUrl The URL of the LPJS results
+     * @param string $inUrl The URL of the FIE results
      * 
      * @since 1.0.0
      */
